@@ -43,6 +43,8 @@
             </div>
         </div>
     </nav>
+  
+  <!--catFact--!>
   <div style="color: black;" id="catFact"></div>
   
   <!--weather API--!>
@@ -324,6 +326,8 @@
 
     <!-- load javascript after loading all html content -->
     <script src="script/script.js"></script>
+  
+  <!--catfact--!>
 <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
 <script type="text/javascript">
   const settings = {
@@ -339,6 +343,7 @@ $.ajax(settings).done(function (response) {
 });
 </script>
 
+  <!--weather API--!>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.2.1/axios.min.js"></script>
 <script type="text/javascript">
     axios.get('http://api.weatherstack.com/current?access_key=e64be90508de3e219fbe665a67b4b344&query=Kadaba').then((response) => {
